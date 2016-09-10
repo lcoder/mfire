@@ -14,16 +14,16 @@ setTimeout(function(){
 ```
 
 > 直接使用也可以，不过，多用于自定义的对象，继承这个mfire父类；
-    ```javascript
-    // 伪代码
-    var children = {} ,
-        mfire = require( 'mfire' ) ;
-    }
-    children.extend( mfire );
-
-    children.on( 'event_something' , doSomething ) ;
-
-    // someth times trigger event_something;
-    children.fire( event_something ) ;
-
-    ```
+> ```javascript
+>  // 伪代码
+>  var children = {} ,
+>      mfire = require( 'mfire' ) ;
+>  }
+>  children.extend( mfire );
+>
+>  children.on( 'event_something' , doSomething ) ;
+>
+>  // someth times trigger event_something;
+>  children.fire( event_something ) ;
+>
+> ```
