@@ -18,8 +18,7 @@ setTimeout(function(){
 >  // 伪代码
 >  var children = {} ,
 >      mfire = require( 'mfire' ) ;
->  }
->  children.extend( mfire );
+>  children.extend( mfire );    // 重点：继承mfire
 >
 >  children.on( 'event_something' , doSomething ) ;
 >
